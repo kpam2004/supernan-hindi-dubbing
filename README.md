@@ -95,8 +95,8 @@ output/final_hindi_dubbed.mp4
 ### Run on Google Colab
 
 Step 1 - Open Google Colab
-Go to: https://colab.research.google.com/
-Sign in with your Google account.
+1. Go to: https://colab.research.google.com/
+2. Sign in with your Google account.
 
 Step 2 - Upload the notebook
 1. Click **File → Upload notebook**
