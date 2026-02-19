@@ -1,0 +1,11 @@
+output/
+__pycache__/
+*.pyc
+*.mp4
+*.wav
+*.mp3
+*.pth
+*.pt
+video-retalking/
+Wav2Lip/
+.env
