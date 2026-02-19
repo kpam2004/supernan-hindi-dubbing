@@ -10,7 +10,7 @@ Zero-cost Python pipeline: Original video → Hindi dubbed video.
 5. Merge audio + video (ffmpeg)
 
 ## Setup
-1. Install [ffmpeg](ffmpeg.org/download.html)
+1. Install [ffmpeg](https://ffmpeg.org//download.html)
 2. Click Windows → click Windows builds by BtbN
 3. Download `ffmpeg-master-latest-win64-gpl.zip`
 4. Extract the zip file
