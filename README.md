@@ -9,6 +9,16 @@ Zero-cost Python pipeline: Original video → Hindi dubbed video.
 4. Generate Hindi audio (gTTS)
 5. Merge audio + video (ffmpeg)
 
+## Setup
+1. Install [ffmpeg](ffmpeg.org/download.html)
+2. Click Windows → click Windows builds by BtbN
+3. Download `ffmpeg-master-latest-win64-gpl.zip`
+4. Extract the zip file
+5. Copy the path to the bin folder inside (e.g. C:\ffmpeg\bin)
+6. Search Environment Variables in Windows search
+7. Click Environment Variables → under System Variables find Path → click Edit
+8. Click New → paste C:\ffmpeg\bin → click OK
+
 ## Usage
 ```bash
 # 1. Clone the repository
@@ -17,6 +27,8 @@ cd supernan-hindi-dubbing
 
 # 2. Install packages:
 pip install openai-whisper transformers sentencepiece gtts pydub
+
+# 3. Install ffmpeg.org/download.html
 apt-get install ffmpeg
 
 # 3. Run the pipeline:
