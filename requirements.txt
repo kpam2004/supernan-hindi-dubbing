@@ -1,0 +1,8 @@
+openai-whisper
+transformers
+sentencepiece
+sacremoses
+gtts
+pydub
+soundfile
+gdown
