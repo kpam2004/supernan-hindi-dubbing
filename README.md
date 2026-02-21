@@ -36,7 +36,9 @@ Verify installation:
 ffmpeg -version
 ```
 ## Usage
-
+[1. Run Locally](#Run-Locally)
+[2. Run on Google Colab](#Run-on-Google-Colab)
+[3. Run on Kaggle](#Run-on-Kaggle)
 ### Run Locally
 
 Step 1 - Clone the repository
@@ -130,10 +132,8 @@ Step 4 - Run the Cell
 
 ## Common Errors & Fix
 
-Module not found
-```
-pip install <module_name>
-```
+Module not found - `pip install <module_name>`
+
 ffmpeg not recognized - Install FFmpeg and restart terminal.
 
 python not recognized - Reinstall Python and select Add Python to PATH.
